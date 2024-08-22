@@ -17,5 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('age').textContent = data.age;
         document.getElementById('about').textContent = data.aboutme;
     })
-    .catch(error => console.error('TA TUDO ERRADO SUA BESTA'));
+    .catch(error => console.error('Está errado'));
 });
